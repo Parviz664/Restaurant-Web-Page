@@ -1,0 +1,33 @@
+/* Global & Reset */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 165px;
+}
+
+/* Header */
+
+.header {
+    background-image: url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header__line {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+
+/* Main */
+
+/* Footer */
