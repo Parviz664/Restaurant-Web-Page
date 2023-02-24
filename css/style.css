@@ -24,6 +24,8 @@ p {
     background-size: cover;
     height: 100vh;
 }
+
+/* Header Line */
 .header__line {
     display: flex;
     align-items: center;
@@ -88,8 +90,59 @@ p {
 .header__button:hover {
     background-color: #af6121;
 }
-
-
+/* Header Line ENDS HERE */
+/* Header Hero */
+.header__body {
+    position: relative;
+    margin-top: 200px;
+}
+.header__title {
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-bottom: 12px;
+}
+.header__suptitle {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header__suptitle::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 141px;
+    left: 60px;
+}
+.header__suptitle::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 141px;
+    right: 60px;
+}
+.body__button {
+    background-color: #FF7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.3s linear;
+}
+.body__button:hover {
+    background-color: #a75b1e;
+}
 /* Main */
 
 /* Footer */
