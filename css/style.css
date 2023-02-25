@@ -91,7 +91,7 @@ p {
     background-color: #af6121;
 }
 /* Header Line ENDS HERE */
-/* Header Hero */
+/* Header Body */
 .header__body {
     position: relative;
     margin-top: 200px;
@@ -107,6 +107,9 @@ p {
     position: absolute;
     left: 0;
     margin-bottom: 12px;
+}
+.header__subtitle {
+    font-family: 'Tinos', serif;
 }
 .header__suptitle {
     color: #fff;
@@ -143,6 +146,142 @@ p {
 .body__button:hover {
     background-color: #a75b1e;
 }
+
+/* Header Body ENDS HERE */
+/* Header ENDS HERE */
+
 /* Main */
 
+/* Cards */
+.cards {
+    margin-bottom: 150px;
+}
+.cards__holder {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+.card__image {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.card__title {
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.card__title span {
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #BC9060;
+    margin-left: 6px;
+}
+.card__text {
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+    text-align: center;
+}
+/* Cards ENDS HERE */
+
+/* History */
+.history {
+}
+.history__holder {
+    display: flex;
+}
+/* History Info */
+.history__title {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    width: 444px;
+    padding-bottom: 21px;
+}
+.history__title span {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #D67E34;
+}
+.history__text {
+    width: 444px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+.history__number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.number__item {
+    margin-right: 60px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: #BC9060;
+}
+.number__item span {
+    font-size: 20px;
+    display: block;
+    color: #000000;
+}
+/* History Info ENDS HERE */
+.history__images {
+    position: relative;
+    margin-left: -70px;
+}
+.images__1 {
+    position: absolute;
+    z-index: 0;
+    top: 54px;
+    left: 211px;
+}
+.images__2 {
+    position: absolute;
+    z-index: 1;
+    top: -92px;
+    left: 383px;
+}
+.images__3 {
+    position: absolute;
+    z-index: 1;
+    top: 241px;
+    left: 486px;
+}
 /* Footer */
